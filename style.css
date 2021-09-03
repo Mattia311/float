@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.sidebar, .contenuto {
+    float: left;
+}
+.sidebar {
+    width: 30%;
+    background-color: blue;
+    height: 100%;
+}
+.contenuto {
+    width: 70%;
+    background-color: brown;
+    height: 100%;
+}
+.container {
+    height: 800px;
+    margin: auto;
+    width: 70%;
+
+}
+.mio {
+    height: 100px;
+    background-color: chocolate;
+    margin: auto;
+    width: 70%;
+}
